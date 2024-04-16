@@ -23,7 +23,7 @@ const UserTable = async ({ sortOrder }: Props) => {
   );
 
   return (
-    <table className="table table-zebra">
+    <table className="table table-zebra p-5">
       <thead>
         <tr>
           <th>Id</th>
