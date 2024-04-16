@@ -5,7 +5,9 @@ export default function Home() {
   return (
     <main>
       <h1>Hello Word!</h1>
-      <Link href="/users">Users</Link>
+      <Link className="btn" href="/users/new">
+        Users
+      </Link>
       <div>
         <button className="btn btn-primary">My Button</button>
       </div>
